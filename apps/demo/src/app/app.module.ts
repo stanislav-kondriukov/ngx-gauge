@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { HighlightModule, HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
 import { GettingStartedComponent } from './getting-started/getting-started.component';
 import { DocumentationComponent } from './documentation/documentation.component';
-import { NgxGaugeModule } from 'ngx-gauge';
 import { PlaygroundComponent } from './playground/playground.component';
 import { DemosComponent } from './demos/demos.component';
 
@@ -21,6 +20,7 @@ import { MatCardModule } from '@angular/material/card';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatTabsModule } from '@angular/material/tabs';
+import { NgxGaugeModule } from 'projects/ngx-gauge/src/ngx-gauge.module';
 
 
 @NgModule({
